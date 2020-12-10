@@ -10,6 +10,8 @@
   "dependencies": {
     "@nexus/schema": "^0.19.2",
     "graphiql-playground": "https://gist.github.com/nksaraf/02f2e67cdd500bd4c92a6a30674f55ba.git",
+    "graphql": "^15.4.0",
+    "graphql-helix": "^1.2.0",
     "isomorphic-unfetch": "^3.1.0",
     "next": "10.0.0",
     "react": "17.0.1",
