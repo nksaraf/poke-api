@@ -135,10 +135,10 @@ function mapPoke(pok) {
 
 export const schema = makeSchema({
     types: [Query], // 1
-    outputs: {
-        typegen: join(__dirname, "..", "schema.types.ts"), // 2
-        schema: join(__dirname, "..", "schema.graphql"), // 3
-    },
+    // outputs: {
+    //     typegen: join(__dirname, "..", "schema.types.ts"), // 2
+    //     schema: join(__dirname, "..", "schema.graphql"), // 3
+    // },
 });
 
 import {
