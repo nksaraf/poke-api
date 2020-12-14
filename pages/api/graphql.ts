@@ -147,7 +147,8 @@ import {
     shouldRenderGraphiQL,
 } from "graphql-helix";
 
-import renderGraphiQL from "graphiql-playground";
+import { renderGraphiQL } from "graphiql";
+
 
 const allowCors = (fn) => async (req, res) => {
     res.setHeader("Access-Control-Allow-Credentials", true);
@@ -178,7 +179,7 @@ export default allowCors(async (req, res) => {
     };
 
     if (shouldRenderGraphiQL(request)) {
-        res.send(renderGraphiQL({ endpoint: "/api/graphql" }));
+        res.send(renderGraphiQL({ uri: "/api/graphql" }));
     } else {
         const { operationName, query, variables } = getGraphQLParameters(request);
 
