@@ -1132,10 +1132,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.0.tgz#6c9eafc78c1529248f8f4d92b0799a712b6052c6"
   integrity sha512-i9YbZPN3QgfighY/1X1Pu118VUz2Fmmhd6b2n0/O8YVgGGfw0FbUYoA97k7FkpGJ+pLCFEDLUmAPPV4D1kpeFw==
 
-"@magiql/ide@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.10.tgz#daba4996b0525bbbd1394e4dbc58a1b8ed87fd22"
-  integrity sha512-38hSy4nSql3PB200CyPKSBlr4waAmw97RDEk0m+z0RG/ig62gjQTnPHsQu8Lf5fzP2NnQ/N+kBFAHSDkxqjkXQ==
+"@magiql/ide@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.12.tgz#d945746b7116523c58d8f996b4a790215512a6d6"
+  integrity sha512-3jOztEM/cm35wA1ler0XRn5WbvuOfXCvvt9In5AHPjDj+tHI88wnffQuMVjTNCo/ZTwJpzQ8ChE7S7jf5nLAAg==
   dependencies:
     "@beamwind/play" "^2.1.1"
     "@reach/combobox" "^0.12.1"
@@ -1150,12 +1150,12 @@
     react-error-boundary "^3.1.0"
     react-split-grid "^1.0.3"
     recoil "^0.1.2"
-    use-monaco "^0.0.22"
+    use-monaco "^0.0.24"
 
 "@magiql/ide@latest":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.8.tgz#93371b363217b37d06c9a85dce7d7a3d98b31a8f"
-  integrity sha512-LduUj6eISs7L3RUbbZRN+BD0/MU1VQIPYekQ7a0IAVy7ksutDQ5cgVvFd3YlX6FCc6xqogqT0AzgM8rEgZG7zQ==
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.11.tgz#c72ab9a22d4b758b07579086d9757acfb62ebb73"
+  integrity sha512-W/gC5E5RV845/0GDhfq9vaesnVu188H9Ln9d9819WKxsA+TRiGw6zgizQxiHFaI2Js6ejxiV+wbw9O0R67OAJA==
   dependencies:
     "@beamwind/play" "^2.1.1"
     "@reach/combobox" "^0.12.1"
@@ -1167,6 +1167,8 @@
     create-hook-context "^1.0.0"
     graphql-ast-types "^1.0.2"
     monaco-graphql "^0.3.3"
+    react "https://gist.github.com/nksaraf/83e9155eaf183742af74db309869f007.git"
+    react-dom "https://gist.github.com/nksaraf/83e9155eaf183742af74db309869f007.git"
     react-error-boundary "^3.1.0"
     react-split-grid "^1.0.3"
     recoil "^0.1.2"
@@ -3049,8 +3051,8 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
 "graphiql@https://gist.github.com/nksaraf/d503c5b47239149ccb9f62ffd9263072.git":
-  version "0.0.1"
-  resolved "https://gist.github.com/nksaraf/d503c5b47239149ccb9f62ffd9263072.git#e137e0a3ff5c569866c290c6bea589ce5fa9e831"
+  version "0.0.2"
+  resolved "https://gist.github.com/nksaraf/d503c5b47239149ccb9f62ffd9263072.git#5db8e90ae7f86bd58dd4f2411f3d03a66668f09d"
   dependencies:
     "@magiql/ide" latest
 
@@ -4403,6 +4405,11 @@ postcss@^7.0.14, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+preact@*:
+  version "10.5.7"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.7.tgz#f1d84725539e18f7ccbea937cf3db5895661dbd3"
+  integrity sha512-4oEpz75t/0UNcwmcsjk+BIcDdk68oao+7kxcpc1hQPNs2Oo3ZL9xFz8UBf350mxk/VEdD41L5b4l2dE3Ug3RYg==
+
 prebuild-install@^5.3.5:
   version "5.3.6"
   resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-5.3.6.tgz#7c225568d864c71d89d07f8796042733a3f54291"
@@ -4548,6 +4555,12 @@ react-dom@17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.1"
+
+"react-dom@https://gist.github.com/nksaraf/83e9155eaf183742af74db309869f007.git", "react@https://gist.github.com/nksaraf/83e9155eaf183742af74db309869f007.git":
+  version "0.0.1"
+  resolved "https://gist.github.com/nksaraf/83e9155eaf183742af74db309869f007.git#a0f1963b8dc7412f94a55fba58829ec4581d2399"
+  dependencies:
+    preact "*"
 
 react-error-boundary@^3.1.0:
   version "3.1.0"
@@ -5544,6 +5557,19 @@ use-monaco@^0.0.22:
   integrity sha512-OcCWYmbZUt1SxUnrYZxMaK+wvqiN/h2xRCvGgjfndCJ7gncSmCxhtGyn/tAOaF3uf4/y8RqRVvb0PUeFmXuG8w==
   dependencies:
     create-hook-context "^1.0.0"
+    monaco-editor "0.20.0"
+    monaco-graphql "^0.3.3"
+    use-debounce "^3.4.2"
+    use-deep-compare-effect "^1.3.1"
+
+use-monaco@^0.0.24:
+  version "0.0.24"
+  resolved "https://registry.yarnpkg.com/use-monaco/-/use-monaco-0.0.24.tgz#fd225f951de09abc992904ea9dc0cafd6367ab58"
+  integrity sha512-nVRGXmCsxEVq63/kNqXkbNI+c2ehSgNdlFMzul2/hjzljFjosZQaxQQIuTuH72MKw11Z7xMJTFPSZGPvp5qfSw==
+  dependencies:
+    create-hook-context "^1.0.0"
+    graphql-language-service "^3.0.4"
+    graphql-language-service-types "^1.6.3"
     monaco-editor "0.20.0"
     monaco-graphql "^0.3.3"
     use-debounce "^3.4.2"
