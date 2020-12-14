@@ -1132,10 +1132,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.0.tgz#6c9eafc78c1529248f8f4d92b0799a712b6052c6"
   integrity sha512-i9YbZPN3QgfighY/1X1Pu118VUz2Fmmhd6b2n0/O8YVgGGfw0FbUYoA97k7FkpGJ+pLCFEDLUmAPPV4D1kpeFw==
 
-"@magiql/ide@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.12.tgz#d945746b7116523c58d8f996b4a790215512a6d6"
-  integrity sha512-3jOztEM/cm35wA1ler0XRn5WbvuOfXCvvt9In5AHPjDj+tHI88wnffQuMVjTNCo/ZTwJpzQ8ChE7S7jf5nLAAg==
+"@magiql/ide@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.13.tgz#c314e0defd20a6c378ea7d608b0ab54d3c4f34c7"
+  integrity sha512-4S4f1yUMzMejRYNI7Qb2tH1/WPuc26YE8DnhdUgvlqEQ9CuHDM+dDoIWM9+NxfqO7YWuNY1NJVfjNH1FzpdKng==
   dependencies:
     "@beamwind/play" "^2.1.1"
     "@reach/combobox" "^0.12.1"
