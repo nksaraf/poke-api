@@ -1,25 +1,27 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@nexus/schema": "^0.19.2",
-    "graphiql-playground": "https://gist.github.com/nksaraf/02f2e67cdd500bd4c92a6a30674f55ba.git",
-    "graphql": "^15.4.0",
-    "graphql-helix": "^1.2.0",
-    "isomorphic-unfetch": "^3.1.0",
-    "next": "10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.12",
-    "@types/react": "^17.0.0",
-    "typescript": "^4.1.2"
-  }
+    "name": "nextjs",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@magiql/ide": "0.0.9",
+        "@nexus/schema": "^0.19.2",
+        "graphiql": "https://gist.github.com/nksaraf/d503c5b47239149ccb9f62ffd9263072.git",
+        "graphql": "^15.4.0",
+        "graphql-helix": "^1.2.0",
+        "isomorphic-unfetch": "^3.1.0",
+        "next": "10.0.0",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
+        "use-monaco": "^0.0.22"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.12",
+        "@types/react": "^17.0.0",
+        "typescript": "^4.1.2"
+    }
 }
