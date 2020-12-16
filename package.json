@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@magiql/ide": "file:.yalc/@magiql/ide",
+    "@magiql/ide": "^0.0.14",
     "@nexus/schema": "^0.19.2",
     "graphiql": "https://gist.github.com/nksaraf/d503c5b47239149ccb9f62ffd9263072.git",
     "graphql": "^15.4.0",
