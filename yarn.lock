@@ -1132,10 +1132,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.0.tgz#6c9eafc78c1529248f8f4d92b0799a712b6052c6"
   integrity sha512-i9YbZPN3QgfighY/1X1Pu118VUz2Fmmhd6b2n0/O8YVgGGfw0FbUYoA97k7FkpGJ+pLCFEDLUmAPPV4D1kpeFw==
 
-"@magiql/ide@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.15.tgz#94b3ae7ddc24be924e967d4bdfe8bffd9cda5619"
-  integrity sha512-s4OrrwxXj0ThrIn83r47RX8MpgQeEUG/6U19dDnjEqOw+Kohxugj0vDScic6ZWo6jEDOx4X/IjKOkz9p7efxeA==
+"@magiql/ide@^0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@magiql/ide/-/ide-0.0.17.tgz#18b8849dc8d99ed315f8716ac20d71413afb1aa5"
+  integrity sha512-+WWi3EFe2UQB7EAsdNJ2n+oykizWqiOHJ7tvLucqnNN+gZkLjUm1J29LGkmykhMHeDlFAYw/K4q8qqeV5g+R3Q==
   dependencies:
     "@beamwind/colors" "^2.0.3"
     "@beamwind/play" "^2.1.1"
