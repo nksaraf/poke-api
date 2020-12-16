@@ -1,4 +1,4 @@
-import { GraphQLIDE } from "@magiql/ide";
+import GraphQLIDE from "@magiql/ide";
 export default function Home() {
   return typeof window !== "undefined" ? (
     <GraphQLIDE
