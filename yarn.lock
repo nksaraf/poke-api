@@ -5562,10 +5562,8 @@ use-monaco@^0.0.22:
     use-debounce "^3.4.2"
     use-deep-compare-effect "^1.3.1"
 
-use-monaco@^0.0.24:
+use-monaco@^0.0.24, "use-monaco@file:.yalc/use-monaco":
   version "0.0.24"
-  resolved "https://registry.yarnpkg.com/use-monaco/-/use-monaco-0.0.24.tgz#fd225f951de09abc992904ea9dc0cafd6367ab58"
-  integrity sha512-nVRGXmCsxEVq63/kNqXkbNI+c2ehSgNdlFMzul2/hjzljFjosZQaxQQIuTuH72MKw11Z7xMJTFPSZGPvp5qfSw==
   dependencies:
     create-hook-context "^1.0.0"
     graphql-language-service "^3.0.4"
