@@ -6,7 +6,7 @@ import {
   objectType,
   queryType,
   stringArg,
-} from "@nexus/schema";
+} from "nexus";
 import { join } from "path";
 import fetch from "isomorphic-unfetch";
 
