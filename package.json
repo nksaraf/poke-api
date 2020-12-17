@@ -18,7 +18,7 @@
     "nexus": "^1.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "use-monaco": "file:.yalc/use-monaco"
+    "use-monaco": "^0.0.29"
   },
   "devDependencies": {
     "@types/node": "^14.14.12",
