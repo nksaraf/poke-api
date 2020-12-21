@@ -146,7 +146,7 @@ import {
   shouldRenderGraphiQL,
 } from "graphql-helix";
 
-import renderPlayground from "@magiql/ide/render";
+import { renderBrowser } from "@magiql/browser/render";
 
 const allowCors = (fn) => async (req, res) => {
   res.setHeader("Access-Control-Allow-Credentials", true);
@@ -177,8 +177,14 @@ export default allowCors(async (req, res) => {
   };
 
   if (shouldRenderGraphiQL(request)) {
+    console.log(
+      renderBrowser({
+        uri: "/api/graphql",
+        cdn: "http://localhost:5000/pkg/dist",
+      })
+    );
     res.send(
-      renderPlayground({
+      renderBrowser({
         uri: "/api/graphql",
         cdn: "http://localhost:5000/pkg/dist",
       })
